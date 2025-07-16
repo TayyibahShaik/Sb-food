@@ -1,11 +1,9 @@
 DEMO-
 <a href="https://drive.google.com/file/d/1RJzLnoh63AlDz6dUwKgoZcZq9fA9gZwX/view?usp=drive_link">Demo Video </a>
 
-
-
-FOOD ORDERING APPLICATION
-
-INTRODUCTION 
+<hr>
+<b> </b>FOOD ORDERING APPLICATION </b>
+<b>INTRODUCTION</b>
 
 •	 Project Title: OrderOnTheGo: Your On-Demand Food Ordering Solution 
 •	Team Members: Shaik Tayyibah, C Sunitha, V Anitha, V Sherylinpaul.
@@ -33,19 +31,31 @@ Solution with Food Ordering App:
 This scenario illustrates how a Food Ordering App caters to users' needs, even during unconventional hours, by offering a seamless and convenient solution for satisfying late-night cravings without compromising on quality or convenience.
 
 
-TECHNICAL ARCHITECTURE: 
+<b>TECHNICAL ARCHITECTURE: </b>
  
 In this architecture diagram:
 •        The frontend is represented by the "Frontend" section, including user interface components such as User Authentication, Cart, Products, Profile, Admin dashboard, etc.,
 •        The backend is represented by the "Backend" section, consisting of API endpoints for Users, Orders, Products, etc., It also includes Admin Authentication and an Admin Dashboard.
 •        The Database section represents the database that stores collections for Users, Admin, Cart, Orders, and products.
-FEATURES: 
+<b>FEATURES:</b> 
 1. Comprehensive Product Catalog: SB Foods boasts an extensive catalog of food items from  various restaurants, offering a diverse range of items and options for shoppers. You can  effortlessly explore and discover various products, complete with detailed descriptions,  customer reviews, pricing, and available discounts, to find the perfect food for your hunger. 
 2. Order Details Page: Upon clicking the "Shop Now" button, you will be directed to an order  details page. Here, you can provide relevant information such as your shipping address,  preferred payment method, and any specific product requirements. 
 3. Secure and Efficient Checkout Process: SB Foods guarantees a secure and efficient checkout  process. Your personal information will be handled with the utmost security, and we strive to  make the purchasing process as swift and trouble-free as possible. 
 4. Order Confirmation and Details: After successfully placing an order, you will receive a  confirmation notification. Subsequently, you will be directed to an order details page, where  you can review all pertinent information about your order, including shipping details, payment  method, and any specific product requests you specified. 
 In addition to these user-centric features, SB Foods provides a robust restaurant dashboard,  offering restaurants an array of functionalities to efficiently manage their products and sales.  With the restaurant dashboard, restaurants can add and oversee multiple product listings, view  order history, monitor customer activity, and access order details for all purchases. 
 SB Foods is designed to elevate your online food ordering experience by providing a seamless  and user-friendly way to discover your desired foods. With our efficient checkout process,  comprehensive product catalog, and robust restaurant dashboard, we ensure a convenient and  enjoyable online shopping experience for both shoppers and restaurants alike.
+<b>FRONTEND DEVELOPMENT: </b>
+1. Setup React Application: 
+• Create a React app in the client folder. 
+• Install required libraries 
+• Create required pages and components and add routes. 
+2.Design UI components: 
+• Create Components. 
+• Implement layout and styling. 
+• Add navigation. 
+3.Implement frontend logic: 
+• Integration with API endpoints. 
+• Implement data binding. 
 Demo UI images:
 ·       Landing page
 <img width="1023" height="542" alt="image" src="https://github.com/user-attachments/assets/1f79da85-66e1-4ed9-9a10-54819ae0b62d" />
@@ -69,6 +79,35 @@ Admin :
 • The admin schema has essential data such as categories, promoted restaurants, etc., 
 <img width="1023" height="538" alt="image" src="https://github.com/user-attachments/assets/ecbd7816-c206-4de3-9a6c-2e888bc33ba3" />
 <img width="1023" height="531" alt="image" src="https://github.com/user-attachments/assets/870b60a7-bde1-4ec8-b8b1-5fa8aab3afc8" />
+<b>BACKEND DEVELOPMENT: </b>
+1. Setup express server: 
+• Create index.js file. 
+• Create an express server on your desired port number.
+• Define API’s
+2. Database Configuration: 
+• Set up a MongoDB database either locally or using a cloud-based MongoDB service like MongoDB Atlas or use locally with MongoDB compass. 
+• Create a database and define the necessary collections for admin, users,  restaurants, food products, orders,and other relevant data. 
+
+Create Express.js Server: 
+• Set up an Express.js server to handle HTTP requests and serve API endpoints.
+ • Configure middleware such as body-parser for parsing request bodies and cors for handling cross-origin requests.
+4. Define API Routes: 
+• Create separate route files for different API functionalities such as users, orders, and authentication. 
+• Define the necessary routes for listing products, handling user registration and  login,managing orders, etc. 
+• Implement route handlers using Express.js to handle requests and interact with the database. 
+5. Implement Data Models: 
+• Define Mongoose schemas for the different data entities like products, users,  and orders. 
+• Create corresponding Mongoose models to interact with the MongoDB database.
+ • Implement CRUD operations (Create, Read, Update, Delete) for each model to perform database operations. 
+6. User Authentication: 
+• Create routes and middleware for user registration, login, and logout. 
+• Set up authentication middleware to protect routes that require user authentication. 
+<img width="1023" height="535" alt="image" src="https://github.com/user-attachments/assets/6a6b5541-9614-46ca-ad98-4ad20f49e2b7" />
+
+7. Handle new products and Orders: 
+• Create routes and controllers to handle new product listings, including fetching products data from the database and sending it as a response. 
+• Implement ordering(buy) functionality by creating routes and controllers to  handle order requests, including validation and database updates. 
+
 For any further doubts or help, please consider the GitHub repo, 
 https://github.com/TayyibahShaik/Sb-food
 
