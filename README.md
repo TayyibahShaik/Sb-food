@@ -45,15 +45,15 @@ In this architecture diagram:
 In addition to these user-centric features, SB Foods provides a robust restaurant dashboard,  offering restaurants an array of functionalities to efficiently manage their products and sales.  With the restaurant dashboard, restaurants can add and oversee multiple product listings, view  order history, monitor customer activity, and access order details for all purchases. 
 SB Foods is designed to elevate your online food ordering experience by providing a seamless  and user-friendly way to discover your desired foods. With our efficient checkout process,  comprehensive product catalog, and robust restaurant dashboard, we ensure a convenient and  enjoyable online shopping experience for both shoppers and restaurants alike.<br>
 <b>FRONTEND DEVELOPMENT: </b>
-1. Setup React Application: 
+a. Setup React Application: 
 • Create a React app in the client folder. 
 • Install required libraries 
 • Create required pages and components and add routes. 
-2.Design UI components: 
+b.Design UI components: 
 • Create Components. 
 • Implement layout and styling. 
 • Add navigation. 
-3.Implement frontend logic: 
+c.Implement frontend logic: 
 • Integration with API endpoints. 
 • Implement data binding. 
 Demo UI images:
@@ -87,10 +87,9 @@ Admin :
 2. Database Configuration: 
 • Set up a MongoDB database either locally or using a cloud-based MongoDB service like MongoDB Atlas or use locally with MongoDB compass. 
 • Create a database and define the necessary collections for admin, users,  restaurants, food products, orders,and other relevant data. 
-
-Create Express.js Server: 
+3.Create Express.js Server: 
 • Set up an Express.js server to handle HTTP requests and serve API endpoints.
- • Configure middleware such as body-parser for parsing request bodies and cors for handling cross-origin requests.
+• Configure middleware such as body-parser for parsing request bodies and cors for handling cross-origin requests.
 4. Define API Routes: 
 • Create separate route files for different API functionalities such as users, orders, and authentication. 
 • Define the necessary routes for listing products, handling user registration and  login,managing orders, etc. 
@@ -103,11 +102,11 @@ Create Express.js Server:
 • Create routes and middleware for user registration, login, and logout. 
 • Set up authentication middleware to protect routes that require user authentication. 
 <img width="1023" height="535" alt="image" src="https://github.com/user-attachments/assets/6a6b5541-9614-46ca-ad98-4ad20f49e2b7" />
-
 7. Handle new products and Orders: 
 • Create routes and controllers to handle new product listings, including fetching products data from the database and sending it as a response. 
 • Implement ordering(buy) functionality by creating routes and controllers to  handle order requests, including validation and database updates.
-This is how the SB food project has been works by using MERN stack
+<img width="1023" height="535" alt="image" src="https://github.com/user-attachments/assets/ba57a174-682e-4ac3-8c9a-b6f1400ae529" />
+This is how the SB food project has been done by using MERN stack
 
 For any further doubts or help, please consider the GitHub repo, 
 https://github.com/TayyibahShaik/Sb-food
