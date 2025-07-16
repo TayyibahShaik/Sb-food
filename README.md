@@ -106,7 +106,8 @@ Create Express.js Server:
 
 7. Handle new products and Orders: 
 • Create routes and controllers to handle new product listings, including fetching products data from the database and sending it as a response. 
-• Implement ordering(buy) functionality by creating routes and controllers to  handle order requests, including validation and database updates. 
+• Implement ordering(buy) functionality by creating routes and controllers to  handle order requests, including validation and database updates.
+This is how the SB food project has been works by using MERN stack
 
 For any further doubts or help, please consider the GitHub repo, 
 https://github.com/TayyibahShaik/Sb-food
