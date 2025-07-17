@@ -2,114 +2,319 @@
 <a href="https://drive.google.com/file/d/1RJzLnoh63AlDz6dUwKgoZcZq9fA9gZwX/view?usp=drive_link">Demo Video </a>
 
 <hr>
-<b> </b>FOOD ORDERING APPLICATION </b>
-<b>INTRODUCTION</b>
-
-•	 Project Title: OrderOnTheGo: Your On-Demand Food Ordering Solution 
+1.	Introduction
+•	Project Title: OrderOnTheGo: Your On-Demand Food Ordering Solution 
 •	Team Members: Shaik Tayyibah, C Sunitha, V Anitha, V Sherylinpaul.
 •	Roles in Project:  Project Setup and Configuration & Frontend development were done by C Sunitha and V Sherylinpaul
  Backend Development, Database Development & Project Implementation and Execution were done by Shaik Tayyibah and V Anitha
 
+2.	Project Overview
+•	Purpose: The SB Foods project, also known as OrderOnTheGo, is developed to enhance the way people order food online by offering a seamless, efficient, and user-friendly web platform. It aims to provide users with a smooth and enjoyable food ordering experience by allowing them to easily explore various dishes, view detailed information, and place orders with minimal steps. 
+	By focusing on simplicity and personalization, SB Foods ensures that users can find meals that match their tastes and preferences quickly. In addition to serving customers, the project also supports restaurants by giving them a platform to present their offerings and manage orders efficiently. Overall, the project’s goal is to simplify online food ordering, improve customer satisfaction, and bridge the gap between food lovers and restaurants in a modern, digital environment.
+•	Features: OrderOnTheGo by SB Foods is a modern food ordering platform designed to make online food ordering easy, fast, and convenient. It offers detailed dish information, instant order confirmation, and a user-friendly interface. 
+	A real-life scenario shows how the app helps users like Lisa, a student needing a quick meal at midnight, to order food in minutes and continue her work undisturbed.
+1.	Easy dish selection with full details (reviews, price, promotions)
+2.	Late-night delivery support
+3.	Simple checkout process (name, address, payment)
+4.	Real-time order confirmation
+5.	Admin dashboard for managing users, products, and orders
 
-Introducing SB Foods, the cutting-edge digital platform poised to revolutionize the way you order food online. With SB Foods, your food ordering experience will reach unparalleled levels of convenience and efficiency.
-Our user-friendly web app empowers foodies to effortlessly explore, discover, and order dishes tailored to their unique tastes. Whether you're a seasoned food enthusiast or an occasional diner, finding the perfect meals has never been more straightforward.
-Imagine having comprehensive details about each dish at your fingertips. From dish descriptions and customer reviews to pricing and available promotions, you'll have all the information you need to make well-informed choices. No more second-guessing or uncertainty – SB Foods ensures that every aspect of your online food ordering journey is crystal clear.
-The ordering process is a breeze. Just provide your name, delivery address, and preferred payment method, along with your desired dishes. Once you place your order, you'll receive an instant confirmation. No more waiting in long queues or dealing with complicated ordering processes – SB Foods streamlines it, making it quick and hassle-free.
+3.	Architecture
+•	Frontend: The frontend of the application is developed using React.js, which enables a component-based, modular, and scalable architecture. The structure is organized into the following key areas: 
+a)	 App Setup: A React app is created in the client folder with necessary libraries like react-router-dom and axios. Routing is set up to manage different pages
+b)	UI Design: Reusable components are created for layout, navigation, and styling. Pages are designed for user interaction and easy navigation.
+c)	 Key Functionalities:
+	Register & Login: Users can register and log in securely using forms and API integration.
+	All Products Page: Displays a list of available food items fetched from the backend.
+	Add to Cart: Users can add products to their cart. The cart is managed using React state or context and updates in real time.
 
-SCENARIO: 
-Late-Night Craving Resolution
-Meet Lisa, a college student burning the midnight oil to finish her assignment. As the clock strikes midnight, her stomach grumbles, reminding her that she skipped dinner. Lisa doesn't want to interrupt her workflow by cooking, nor does she have the energy to venture outside in search of food.
-Solution with Food Ordering App:
-1. Lisa opens the Food Ordering App on her smartphone and navigates to the late-night delivery section, where she finds a variety of eateries still open for orders.
-2. She scrolls through the options, browsing menus and checking reviews until she spots her favorite local diner offering comfort food classics.
-3. Lisa selects a hearty bowl of chicken noodle soup and a side of garlic bread, craving warmth and satisfaction in each bite.
-4. With a few taps, she adds the items to her cart, specifies her delivery address, and chooses her preferred payment method.
-5. Lisa double-checks her order details on the confirmation page, ensuring everything looks correct, before tapping the "Place Order" button.
-6. Within minutes, she receives a notification confirming her order and estimated delivery time, allowing her to continue working with peace of mind.
-7. As promised, the delivery arrives promptly at her doorstep, and Lisa eagerly digs into her piping hot meal, grateful for the convenience and comfort provided by the Food Ordering App during her late-night study session.
+•	Backend:  Create a new directory for your project and set up a package.json file using the npm init command. Install necessary dependencies such as Express.js, Mongoose, and other required packages.
 
-This scenario illustrates how a Food Ordering App caters to users' needs, even during unconventional hours, by offering a seamless and convenient solution for satisfying late-night cravings without compromising on quality or convenience.
+a)	 Node.js and npm: Install Node.js, which includes npm (Node Package Manager), on your development machine. Node.js is required to run JavaScript on the server side. • Download: https://nodejs.org/en/download/
 
+b)	 Express.js: Express.js is a web application framework for Node.js. Install Express.js to handle server-side routing, middleware, and API development. 
 
-<b>TECHNICAL ARCHITECTURE: </b>
- 
-In this architecture diagram:
-•        The frontend is represented by the "Frontend" section, including user interface components such as User Authentication, Cart, Products, Profile, Admin dashboard, etc.,
-•        The backend is represented by the "Backend" section, consisting of API endpoints for Users, Orders, Products, etc., It also includes Admin Authentication and an Admin Dashboard.
-•        The Database section represents the database that stores collections for Users, Admin, Cart, Orders, and products.
-<b>FEATURES:</b> 
-1. Comprehensive Product Catalog: SB Foods boasts an extensive catalog of food items from  various restaurants, offering a diverse range of items and options for shoppers. You can  effortlessly explore and discover various products, complete with detailed descriptions,  customer reviews, pricing, and available discounts, to find the perfect food for your hunger. 
-2. Order Details Page: Upon clicking the "Shop Now" button, you will be directed to an order  details page. Here, you can provide relevant information such as your shipping address,  preferred payment method, and any specific product requirements. 
-3. Secure and Efficient Checkout Process: SB Foods guarantees a secure and efficient checkout  process. Your personal information will be handled with the utmost security, and we strive to  make the purchasing process as swift and trouble-free as possible. 
-4. Order Confirmation and Details: After successfully placing an order, you will receive a  confirmation notification. Subsequently, you will be directed to an order details page, where  you can review all pertinent information about your order, including shipping details, payment  method, and any specific product requests you specified. 
-In addition to these user-centric features, SB Foods provides a robust restaurant dashboard,  offering restaurants an array of functionalities to efficiently manage their products and sales.  With the restaurant dashboard, restaurants can add and oversee multiple product listings, view  order history, monitor customer activity, and access order details for all purchases. 
-SB Foods is designed to elevate your online food ordering experience by providing a seamless  and user-friendly way to discover your desired foods. With our efficient checkout process,  comprehensive product catalog, and robust restaurant dashboard, we ensure a convenient and  enjoyable online shopping experience for both shoppers and restaurants alike.<br>
-<b>FRONTEND DEVELOPMENT: </b>
-a. Setup React Application: 
-• Create a React app in the client folder. 
-• Install required libraries 
-• Create required pages and components and add routes. 
-b.Design UI components: 
-• Create Components. 
-• Implement layout and styling. 
-• Add navigation. 
-c.Implement frontend logic: 
-• Integration with API endpoints. 
-• Implement data binding. 
-Demo UI images:
-·       Landing page
-<img width="1023" height="542" alt="image" src="https://github.com/user-attachments/assets/1f79da85-66e1-4ed9-9a10-54819ae0b62d" />
-Restaurant : 
-• Schema: restaurantSchema 
-• Model: ‘Restaurant’ 
-• The restaurant schema has the info about the restaurant and it’s menu
-<img width="1023" height="544" alt="image" src="https://github.com/user-attachments/assets/c3c0af84-f4ac-4fab-a26c-3930cd39ef01" />
-<img width="1023" height="540" alt="image" src="https://github.com/user-attachments/assets/5bdc9392-46fe-41da-94e3-b9b95bd09d09" />
-Cart: 
-• Schema: cartSchema 
+•	Database: Create database in cloud
+1.	Install Mongoose.
+2.	Create database connection.
+
+	Reference Article: https://www.mongodb.com/docs/atlas/tutorial/connect-to-your-cluster/
+
+a)	User Schema: 
+• Schema: user Schema 
+• Model: ‘User’ 
+• The User schema represents the user data and includes fields such as username, email, and password. 
+
+b)	Product Schema: 
+• Schema: product Schema 
+• Model: ‘Product’ 
+• The Product schema represents the data of all the products in the platform. 
+• It is used to store information about the product details, which will later be useful for ordering. 
+
+c)	Orders Schema: 
+• Schema: orders Schema 
+• Model: ‘Orders’ 
+• The Orders schema represents the orders data and includes fields such as userId, product Id, product name, quantity, size, order date, etc., 
+
+d)	 Cart Schema: 
+• Schema: cart Schema 
 • Model: ‘Cart’ 
-• The Cart schema represents the cart data and includes fields such as userId, product  Id, product name, quantity, size, order date, etc., 
-• The user Id field is a reference to the user who has the product in cart.
-<img width="1023" height="531" alt="image" src="https://github.com/user-attachments/assets/0d0f9311-dbf7-4a59-9967-8b161d38df04" />
-<img width="1023" height="527" alt="image" src="https://github.com/user-attachments/assets/5ad0b2a8-02a2-4b47-856c-8ef00bc7f42c" />
+• The Cart schema represents the cart data and includes fields such as userId, product Id, product name, quantity, size, order date, etc., 
+• The user Id field is a reference to the user who has the product in cart. 
 
-Admin : 
-• Schema: adminSchema 
+e)	 Admin Schema: 
+• Schema: admin Schema 
 • Model: ‘Admin’ 
 • The admin schema has essential data such as categories, promoted restaurants, etc., 
-<img width="1023" height="538" alt="image" src="https://github.com/user-attachments/assets/ecbd7816-c206-4de3-9a6c-2e888bc33ba3" />
-<img width="1023" height="531" alt="image" src="https://github.com/user-attachments/assets/870b60a7-bde1-4ec8-b8b1-5fa8aab3afc8" />
-<b>BACKEND DEVELOPMENT: </b>
-1. Setup express server: 
-• Create index.js file. 
-• Create an express server on your desired port number.
-• Define API’s
-2. Database Configuration: 
-• Set up a MongoDB database either locally or using a cloud-based MongoDB service like MongoDB Atlas or use locally with MongoDB compass. 
-• Create a database and define the necessary collections for admin, users,  restaurants, food products, orders,and other relevant data. 
-3.Create Express.js Server: 
-• Set up an Express.js server to handle HTTP requests and serve API endpoints.
-• Configure middleware such as body-parser for parsing request bodies and cors for handling cross-origin requests.
-4. Define API Routes: 
-• Create separate route files for different API functionalities such as users, orders, and authentication. 
-• Define the necessary routes for listing products, handling user registration and  login,managing orders, etc. 
-• Implement route handlers using Express.js to handle requests and interact with the database. 
-5. Implement Data Models: 
-• Define Mongoose schemas for the different data entities like products, users,  and orders. 
-• Create corresponding Mongoose models to interact with the MongoDB database.
- • Implement CRUD operations (Create, Read, Update, Delete) for each model to perform database operations. 
-6. User Authentication: 
-• Create routes and middleware for user registration, login, and logout. 
-• Set up authentication middleware to protect routes that require user authentication. 
-<img width="1023" height="535" alt="image" src="https://github.com/user-attachments/assets/6a6b5541-9614-46ca-ad98-4ad20f49e2b7" />
-7. Handle new products and Orders: 
-• Create routes and controllers to handle new product listings, including fetching products data from the database and sending it as a response. 
-• Implement ordering(buy) functionality by creating routes and controllers to  handle order requests, including validation and database updates.
-<img width="1023" height="535" alt="image" src="https://github.com/user-attachments/assets/ba57a174-682e-4ac3-8c9a-b6f1400ae529" />
-This is how the SB food project has been done by using MERN stack
 
-For any further doubts or help, please consider the GitHub repo, 
-https://github.com/TayyibahShaik/Sb-food
+f)	 Restaurant Schema: 
+• Schema: restaurant Schema 
+• Model: ‘Restaurant’ 
+• The restaurant schema has the info about the restaurant and it’s menu
+
+
+4.	Setup Instructions
+•	Prerequisites: List of software dependencies
+a)	Node.js
+b)	MongoDB and Mongoose
+c)	Express.js
+d)	React.js
+e)	Git
+f)	Visual Studio Code
+
+Installation: Use Git for version control, enabling collaboration and tracking changes throughout the development process. Platforms like GitHub or Bitbucket can host your repository. 
+
+• Git: Download and installation instructions can be found at: https://git scm.com/downloads 
+Development Environment: Choose a code editor or Integrated Development Environment (IDE) that suits your preferences, such as Visual Studio Code, Sublime Text, or WebStorm.
+
+ • Visual Studio Code: Download from https://code.visualstudio.com/download 
+
+• Sublime Text: Download from https://www.sublimetext.com/download 
+
+• WebStorm: Download from https://www.jetbrains.com/webstorm/download
+
+To run the existing SB Foods App project downloaded from github:
+
+a)	Clone the repository: 
+
+• Open your terminal or command prompt. 
+• Navigate to the directory where you want to store the required data. 
+
+Install the required dependencies by running the following command: 
+npm install 
+
+b)	Start the Development Server: 
+
+• To start the development server, execute the following command: 
+   npm run dev or npm run start 
+• The e-commerce app will be accessible at http://localhost:3000 by default. You can change the port configuration in the .env file if needed. 
+
+c)	Access the App: 
+
+• Open your web browser and navigate to http://localhost:3000. 
+• You should see the food ordering homepage, indicating that the installation and setup were successful. .
+
+5.	Folder Structure
+•	Client: The structure of the React frontend using VisualStudio code
+ 
+<img width="219" height="591" alt="image" src="https://github.com/user-attachments/assets/2efe104a-0e31-4540-a803-28e6a20c7163" />
+📁 src/
+Contains all the source code for the React app.
+✅ components/
+      Reusable components used across multiple pages, such as:
+Navbar.jsx
+Footer.jsx
+Login.jsx & Register.jsx – for authentication
+Restaurants.jsx, PopularRestaurants.jsx – for listings
+✅ context/
+Most likely for React Context API, where you manage global states such as user authentication, cart data, or selected restaurant.
+✅ images/
+This would typically store all static image assets used in the UI.
+✅ pages/
+All route-specific React pages are categorized into subfolders based on user type:
+      ▶ admin/
+Pages specifically for the admin dashboard:
+AllUsers.jsx, AllProducts.jsx, AllRestaurants.jsx, AllOrders.jsx – for managing the platform
+Admin.jsx – likely the main dashboard
+▶ customer/
+Pages for customers:
+Cart.jsx – shows cart items
+CategoryProducts.jsx – shows products by category
+IndividualRestaurant.jsx – shows details of one restaurant
+Profile.jsx – user profile
+▶ restaurant/
+Pages for restaurant owners:
+NewProduct.jsx, EditProduct.jsx – manage their menu
+RestaurantMenu.jsx, RestaurantOrders.jsx – view menu/orders
+Authentication.jsx – possibly for login/register (restaurant-specific)
+RestaurantHome.jsx – dashboard
+✅ Home.jsx
+Likely the landing page of the application
+✅ styles/
+Contains CSS or styling files (only App.css is shown).
+✅ App.js
+Main entry point for routing and rendering pages.
+
+•	Server: 
+1.	index.jsMain entry point for your backend server. Likely where you start the server, connect to MongoDB, and set up middleware and routes.
+2.	Schema.jsDefines your MongoDB Mongoose schemas (data structure) — for example, Users, Products, Orders, Restaurants, etc.
+3.	package.jsonLists your Node.js project's dependencies, scripts, name, and version.
+4.	package-lock.jsonAuto-generated file that locks the versions of installed dependencies
+
+6.	Running the Application
+•	Provide commands to start the frontend and backend servers locally.
+o	Frontend: npm start in the client directory.
+o	Backend: npm start in the server directory.
+
+7.	API Documentation
+•	Documentation of endpoints exposed by the backend.
+All API endpoints are built using Express.js and communicate with the frontend using JSON.
+      Endpoints:
+🔸 User Authentication
+POST /api/auth/register
+Create a new user.
+Body: { "username": "", "email": "", "password": "" }
+POST /api/auth/login
+Authenticate and return a token.
+Body: { "email": "", "password": "" }
+Response: { "token": "..." }
+🔸 Products (Admin/Restaurant)
+GET /api/products
+Returns all products.
+POST /api/products
+Adds a new product (admin/restaurant only).
+🔸 Orders
+POST /api/orders
+Places an order for the current user.
+Body: { "userId": "", "items": [...], "total": 123 }
+GET /api/orders/:userId
+Get all orders for a user.
+
+•	Including request methods, parameters, and example responses.
+🔹 1. Register a New User
+
+Method: POST
+
+Endpoint: /api/auth/register
+Description: Registers a new user (customer or restaurant)
+Request Body:
+
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "password": "mypassword",
+  "role": "customer"
+}
+
+Response:
+
+{
+  "message": "User registered successfully",
+  "userId": "64d4fe9a01b12e..."
+}
+
+🔹 2. Login
+ Method: POST
+Endpoint: /api/auth/login
+Request Body:
+
+{
+  "email": "john@example.com",
+  "password": "mypassword"
+}
+
+Response:
+
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6...",
+  "user": {
+    "id": "64d4fe9a01b12e...",
+    "name": "John Doe",
+    "role": "customer"
+  }
+}
+🔹 3. Get User Profile
+Method: GET
+Endpoint: /api/auth/profile
+Headers: Requires Authorization: Bearer <token>
+Response:
+
+{
+  "id": "64d4fe9a01b12e...",
+  "name": "John Doe",
+  "email": "john@example.com",
+  "role": "customer"
+}
+
+🔹 4. Get All Products
+Method: GET
+Endpoint: /api/products
+Response:
+
+[
+  {
+    "_id": "64d5acb99...",
+    "name": "Pizza",
+    "price": 250,
+    "category": "Italian"
+  }
+]
+
+8.	Authentication
+• Create routes and middleware for user registration, login, and logout.
+• Set up authentication middleware to protect routes that require user           authentication
+
+9.	User Interface
+•	Provide screenshots or GIFs showcasing different UI features.
+<img width="916" height="485" alt="image" src="https://github.com/user-attachments/assets/b06cdb2e-bfda-4772-bf33-dfe4869e9e8d" />
+10.	Testing
+•	Describing the testing strategy and tools used.
+Run tests using: npm test
+Manual testing was conducted using the tools like:
+Postman (for API testing)
+Browser (React pages)
+
+Form validations for login/register
+Test Strategy: All major flows like user registration, login, cart functionality, and order placement were tested. 
+
+11.	Screenshots or Demo
+•	Providing screenshots or a link to a demo to showcase the application.
+	https://drive.google.com/file/d/1PImuicEGJGk4OnLiUU79Oh76MFuOHZqL/view?usp=drivesdk
+
+12.	Known Issues
+ 1. 🔑 No Password Reset
+Users cannot reset their password in case they forget it. No recovery or email OTP mechanism is available.
+2. 📧 No Email Verification
+Users can register with any email address without verification, which may lead to spam or fake accounts.
+3. 🔐 Token Storage Vulnerability
+JWT tokens are stored in local Storage, which is vulnerable to cross-site scripting (XSS) attacks. Http Only cookies would be a more secure option.
+4. 📦 No Inventory or Stock Management
+Products can be ordered repeatedly with no stock limit or quantity tracking.
+5. 💳 No Payment Gateway Integration
+The application currently allows order placement but does not support online payment (e.g., Razorpay, Stripe).
+
+13.	Future Enhancements
+
+The following features and improvements can be considered to enhance the functionality, security, and user experience of the OrderOnTheGo platform:
+
+🌐 1. Payment Gateway Integration
+
+Integrate Razorpay, Stripe, or PayPal for secure online payments.
+
+🔁 2. Real-time Order Status Tracking
+
+Enable dynamic status updates for orders using technologies like WebSockets or Firebase.
+
+📧 3. Email/OTP Verification
+Send mail confirmations and OTPs during registration or password recovery to verify user identity.
+
+🔑 4. Forgot Password & Password Reset
+
+Add functionality for users to securely reset their password via email link or mobile OTP.
+
+📱 5. Progressive Web App (PWA) Support
+
+Convert the app into a PWA so users can install it like a mobile app with offline support. 
 
 
 
