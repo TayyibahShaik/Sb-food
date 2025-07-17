@@ -1,4 +1,4 @@
-# Food-Ordering-App-MERN-DEMO
+<img width="1023" height="542" alt="image" src="https://github.com/user-attachments/assets/5e5120db-0d17-4790-9076-180c88cc595e" /># Food-Ordering-App-MERN-DEMO
 <a href="https://drive.google.com/file/d/1RJzLnoh63AlDz6dUwKgoZcZq9fA9gZwX/view?usp=drive_link">Demo Video </a>
 
 <hr>
@@ -85,48 +85,17 @@ Restaurants benefit by having a dashboard to manage menus, promotions, and incom
    git clone <repository-url>
    Install dependencies
 
-Frontend:
-
-bash
-Copy
-Edit
-cd client
-npm install
-
-Backend:
-
-bash
-Copy
-Edit
+Step 2: Install All Dependencies
+Run the following commands in the root of your project directory:
+# Install backend dependencies
 cd server
 npm install
-Start development servers
 
-Frontend:
-
-bash
-Copy
-Edit
-npm start
-Backend:
-
-bash
-Copy
-Edit
-npm start
-Visit the App
-
-arduino
-Copy
-Edit
-http://localhost:3000
-
+.
 
 📁 Folder Structure
 Frontend (/client)
-bash
-Copy
-Edit
+<br>
 src/
 ├── components/          # Reusable components (Navbar, Login, etc.)
 ├── context/             # Context API (Auth, Cart)
@@ -138,105 +107,91 @@ src/
 ├── styles/              # CSS styling
 ├── Home.jsx             # Landing page
 ├── App.js               # Main app component
+<br>
 Backend (/server)
-pgsql
-Copy
-Edit
+<br>
 server/
 ├── index.js             # Main entry point
 ├── Schema.js            # Mongoose schemas
 ├── package.json
 ├── package-lock.json
+
+
+# Install frontend dependencies
+cd ../client
+npm install
+<br>
+📂 Backend Dependencies (/server)
+The following packages will be installed for the backend:
+| Package       | Purpose                                |
+| ------------- | -------------------------------------- |
+| express       | Web framework for building the API     |
+| mongoose      | MongoDB object modeling tool           |
+| dotenv        | Load environment variables             |
+| cors          | Enable Cross-Origin Resource Sharing   |
+| bcryptjs      | Password hashing                       |
+| jsonwebtoken  | JWT-based authentication               |
+| nodemon (dev) | Auto-reloads server during development |<br>
+
+📂 Frontend Dependencies (/client)
+The following packages will be installed for the frontend:
+
+| Package          | Purpose                                |
+| ---------------- | -------------------------------------- |
+| react            | Frontend library for building UI       |
+| react-router-dom | Client-side routing                    |
+| axios            | HTTP requests to backend APIs          |
+| react-icons      | Icons for UI components                |
+| dotenv           | Load client-side environment variables |
+<br>
+Step 3: Start the Application<br>
+Use the following commands in two separate terminals:
+cd server
+npm start
+<br>
 🔌 API Endpoints
 🔐 Authentication
 POST /api/auth/register
-Registers a new user.
-
-json
-Copy
-Edit
+Registers a new user.<br>
 {
   "name": "John Doe",
   "email": "john@example.com",
   "password": "mypassword",
   "role": "customer"
 }
-POST /api/auth/login
-Logs in a user and returns JWT.
-
-json
-Copy
-Edit
-{
-  "email": "john@example.com",
-  "password": "mypassword"
-}
-GET /api/auth/profile
-Requires Bearer token (JWT).
-
-json
-Copy
-Edit
-{
-  "id": "64d4fe9a01b12e...",
-  "name": "John Doe",
-  "email": "john@example.com",
-  "role": "customer"
-}
-🥘 Products
-GET /api/products
-Returns all products.
-
-POST /api/products
-Adds a new product (Admin/Restaurant only).
-
-📦 Orders
-POST /api/orders
-Places a new order.
-
-json
-Copy
-Edit
-{
-  "userId": "123",
-  "items": [ ... ],
-  "total": 123
-}
-GET /api/orders/:userId
-Returns all orders for a user.
-
+.<br>
 🔐 Authentication Middleware
-Protects routes like profile, cart, orders
+Protects routes like /profile, /orders, /cart
 
-Uses JWT to validate and authorize users
+Validates JWT from headers
 
+Redirects unauthenticated users
+<br>
 🖥️ User Interface
 🖼️ Screenshots / Demo
-📸 Click to view demo screenshots
+
+<img width="1023" height="542" alt="image" src="https://github.com/user-attachments/assets/21a075ca-a073-4fcb-a3cb-1d040ed2cee7" /><br>
 
 🧪 Testing
-🛠️ Strategy:
+🛠️ Strategy
 Manual testing using:
 
-Postman for API testing
+Postman (for API requests)
 
-Browser for UI/UX testing
+Browser (for UI interactions)
 
-✅ Key Validations:
-Form validations (login/register)
+✅ Validated Flows
+User registration and login
+
+Product listing and cart
 
 Order placement
 
-Cart functionality
+Dashboard access for admin and restaurant
 
-Authentication flow
-
-To run tests:
-
-bash
-Copy
-Edit
+To run tests:<br>
 npm test
+<br>
 🐛 Known Issues
 🔑 No password reset functionality
 
@@ -249,15 +204,23 @@ npm test
 💳 No payment gateway integration
 
 🔮 Future Enhancements
-🌐 Payment Gateway Integration (Stripe/Razorpay)
+🌐 Payment Gateway Integration (Stripe, Razorpay)
 
-🔁 Real-Time Order Status Tracking using WebSockets or Firebase
+🔁 Real-Time Order Tracking (WebSockets/Firebase)
 
-📧 Email/OTP Verification
+📧 Email/OTP Verification for Sign-Up
 
-🔑 Password Reset Functionality
+🔑 Forgot Password & Secure Reset Flow
 
-📱 Progressive Web App (PWA) support
+📱 PWA (Progressive Web App) Capabilities
+
+
+
+
+
+
+
+
 
 
 
