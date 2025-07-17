@@ -1,4 +1,4 @@
-<img width="1023" height="542" alt="image" src="https://github.com/user-attachments/assets/5e5120db-0d17-4790-9076-180c88cc595e" /># Food-Ordering-App-MERN-DEMO
+# Food-Ordering-App-MERN-DEMO
 <a href="https://drive.google.com/file/d/1RJzLnoh63AlDz6dUwKgoZcZq9fA9gZwX/view?usp=drive_link">Demo Video </a>
 
 <hr>
@@ -131,8 +131,9 @@ The following packages will be installed for the backend:
 | cors          | Enable Cross-Origin Resource Sharing   |
 | bcryptjs      | Password hashing                       |
 | jsonwebtoken  | JWT-based authentication               |
-| nodemon (dev) | Auto-reloads server during development |<br>
-
+| nodemon (dev) | Auto-reloads server during development |
+<br>
+<br>
 📂 Frontend Dependencies (/client)
 The following packages will be installed for the frontend:
 
@@ -172,7 +173,7 @@ Redirects unauthenticated users
 
 <img width="1023" height="542" alt="image" src="https://github.com/user-attachments/assets/21a075ca-a073-4fcb-a3cb-1d040ed2cee7" /><br>
 
-🧪 Testing
+**🧪 Testing<br>**
 🛠️ Strategy
 Manual testing using:
 
@@ -192,7 +193,9 @@ Dashboard access for admin and restaurant
 To run tests:<br>
 npm test
 <br>
-🐛 Known Issues
+
+<br>
+**🐛 Known Issues**<br>
 🔑 No password reset functionality
 
 📧 No email verification
@@ -203,7 +206,7 @@ npm test
 
 💳 No payment gateway integration
 
-🔮 Future Enhancements
+**🔮 Future Enhancements**<br>
 🌐 Payment Gateway Integration (Stripe, Razorpay)
 
 🔁 Real-Time Order Tracking (WebSockets/Firebase)
