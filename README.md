@@ -1,7 +1,8 @@
-# Food-Ordering-App-MERNDEMO-
+# Food-Ordering-App-MERN-DEMO
 <a href="https://drive.google.com/file/d/1RJzLnoh63AlDz6dUwKgoZcZq9fA9gZwX/view?usp=drive_link">Demo Video </a>
 
 <hr>
+<b>🍕Food-Ordering-App-MERN-DEMO<b/></b>
 1.	Introduction<br>
 •	Project Title: OrderOnTheGo: Your On-Demand Food Ordering Solution <br>
 •	Team Members: Shaik Tayyibah, C Sunitha, V Anitha, V Sherylinpaul.<br>
@@ -16,7 +17,7 @@
 4.	Real-time order confirmation
 5.	Admin dashboard for managing users, products, and orders
 
-3.	Architecture<br>
+3.	Architecture
 •	Frontend: The frontend of the application is developed using React.js, which enables a component-based, modular, and scalable architecture. The structure is organized into the following key areas: 
 a)	 App Setup: A React app is created in the client folder with necessary libraries like react-router-dom and axios. Routing is set up to manage different pages
 b)	UI Design: Reusable components are created for layout, navigation, and styling. Pages are designed for user interaction and easy navigation.
