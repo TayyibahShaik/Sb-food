@@ -7,7 +7,7 @@
 •	Team Members: Shaik Tayyibah, C Sunitha, V Anitha, V Sherylinpaul.<br>
 2.	Project Overview<br>
 •	Purpose: The SB Foods project, also known as OrderOnTheGo, is developed to enhance the way people order food online by offering a seamless, efficient, and user-friendly web platform. It aims to provide users with a smooth and enjoyable food ordering experience by allowing them to easily explore various dishes, view detailed information, and place orders with minimal steps. 
-	By focusing on simplicity and personalization, SB Foods ensures that users can find meals that match their tastes and preferences quickly. In addition to serving customers, the project also supports restaurants by giving them a platform to present their offerings and manage orders efficiently. Overall, the project’s goal is to simplify online food ordering, improve customer satisfaction, and bridge the gap between food lovers and restaurants in a modern, digital environment.
+	By focusing on simplicity and personalization, SB Foods ensures that users can find meals that match their tastes and preferences quickly. In addition to serving customers, the project also supports restaurants by giving them a platform to present their offerings and manage orders efficiently. Overall, the project’s goal is to simplify online food ordering, improve customer satisfaction, and bridge the gap between food lovers and restaurants in a modern, digital environment.<br>
 •	Features: OrderOnTheGo by SB Foods is a modern food ordering platform designed to make online food ordering easy, fast, and convenient. It offers detailed dish information, instant order confirmation, and a user-friendly interface. <br>
 	A real-life scenario shows how the app helps users like Lisa, a student needing a quick meal at midnight, to order food in minutes and continue her work undisturbed.<br>
 1.	Easy dish selection with full details (reviews, price, promotions)
@@ -69,7 +69,7 @@ f)	 Restaurant Schema:<br>
 • Model: ‘Restaurant’ 
 • The restaurant schema has the info about the restaurant and it’s menu
 
-
+<br>
 4.	Setup Instructions<br>
 •	Prerequisites: List of software dependencies<br>
 a)	Node.js
