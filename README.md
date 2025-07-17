@@ -135,7 +135,7 @@ The following packages will be installed for the backend:
 <br>
 <br>
 📂 Frontend Dependencies (/client)
-The following packages will be installed for the frontend:
+The following packages will be installed for the frontend:<br>
 
 | Package          | Purpose                                |
 | ---------------- | -------------------------------------- |
@@ -176,45 +176,34 @@ Redirects unauthenticated users
 **🧪 Testing<br>**
 🛠️ Strategy
 Manual testing using:
-
 Postman (for API requests)
-
 Browser (for UI interactions)
 
-✅ Validated Flows
+<b>✅ Validated Flows</b>
 User registration and login
-
 Product listing and cart
-
 Order placement
-
 Dashboard access for admin and restaurant
 
-To run tests:<br>
+<b>To run tests:<</b><br>
 npm test
 <br>
 
 <br>
-**🐛 Known Issues**<br>
+<b>🐛 Known Issues</b><br>
+
 🔑 No password reset functionality
-
 📧 No email verification
-
 🔐 JWT stored in localStorage (XSS risk)
-
 📦 No inventory/stock limit
-
 💳 No payment gateway integration
 
 **🔮 Future Enhancements**<br>
+
 🌐 Payment Gateway Integration (Stripe, Razorpay)
-
 🔁 Real-Time Order Tracking (WebSockets/Firebase)
-
 📧 Email/OTP Verification for Sign-Up
-
 🔑 Forgot Password & Secure Reset Flow
-
 📱 PWA (Progressive Web App) Capabilities
 
 
