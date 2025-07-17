@@ -114,7 +114,7 @@ c)	Access the App: <br>
 5.	Folder Structure<br>
 •	Client: The structure of the React frontend using VisualStudio code
  
-<img width="219" height="591" alt="image" src="https://github.com/user-attachments/assets/2efe104a-0e31-4540-a803-28e6a20c7163" />
+<img width="219" height="591" alt="image" src="https://github.com/user-attachments/assets/2efe104a-0e31-4540-a803-28e6a20c7163" /><br>
 📁 src/
 Contains all the source code for the React app.<br>
 ✅ components/
