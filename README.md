@@ -206,6 +206,12 @@ npm test
 🔑 Forgot Password & Secure Reset Flow
 📱 PWA (Progressive Web App) Capabilities
 
+📄 License
+This project is licensed under the MIT License.
+
+🔗 Drive:
+https://drive.google.com/drive/folders/1nKDFjdafbamvESIuKYYt7qzlD1G8Wv8A?usp=sharing
+
 
 
 
