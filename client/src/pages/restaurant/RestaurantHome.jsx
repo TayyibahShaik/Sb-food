@@ -10,9 +10,10 @@ const RestaurantHome = () => {
 
   const [restaurant, setRestaurant] = useState('pending');
 
-  useEffect(()=>{
-      fetchUserData();
-  },[])
+ useEffect(()=>{
+    fetchUserData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+},[])
  
   const fetchUserData = async () =>{
     await axios.get(`http://localhost:6001/fetch-user-details/${userId}`).then(
@@ -29,7 +30,8 @@ const RestaurantHome = () => {
 
   useEffect(()=>{
     fetchRestaurantData();
-  }, [])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+}, [])
 
 
 
